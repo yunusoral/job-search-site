@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.navbar {
+  height: 65px;
+}
+.banner {
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pexels-alena-shekhovtcova-8067882.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.banner h1 {
+  font-size: 50px;
+  padding-top: 150px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-shadow: 0 0 30px yellow;
+}
+.banner p {
+  font-size: 20px;
+  padding-top: 50px;
+}
+.search-job {
+  margin: -50px 6% 50px;
+  padding: 30px 0;
+  background: linear-gradient(to right, lightblue, rgb(142, 218, 142));
+  border-radius: 0 !important;
+}
+.search-job .form-control {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  display: inline-flex;
+  font-size: 12px;
+  outline: none !important;
+  width: 200px;
+  border-radius: 0 !important;
+}
+
+.search-job.btn-primary {
+  font-size: 15px;
+  border-radius: 0 !important;
+  padding: 5px 20px;
+  display: inline-flex;
+  margin: 5px;
+  border-radius: 0 !important;
+}
+/* top jobs */
+.top-jobs h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 200px;
+  margin-bottom: 70px;
+}
+.top-jobs h1::before {
+  content: "";
+  background: linear-gradient(to right, lightblue, rgb(142, 218, 142));
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  z-index: -100;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 80px;
+  margin-top: -10px;
+  opacity: 0.8;
+}
+
+.brands img {
+  max-width: 150px;
+  margin: 20px;
+}
+/* job-updates */
+.job-updates {
+  margin-top: 100px;
+  display: flex;
+}
+
+/* .container h4 {
+  text-align: start;
+} */
+.container-box {
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+  max-width: 800px;
+  border: none;
+  margin: auto;
+}
+.container-box-info {
+  padding: 10px;
+  text-align: start;
+}
+.container-box h5 {
+  font-weight: 600;
+}
+.container-box i {
+  color: aqua;
+  margin-right: 10px;
+}
+.container-box p small {
+  background-color: azure;
+}
+.more {
+  float: right;
+  opacity: 0.5;
+  text-decoration: none;
+  color: grey;
+  cursor: pointer;
+}
+.container-box-btn {
+  background: linear-gradient(to right, lightblue, rgb(142, 218, 142));
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.container-box-btn button {
+  width: 70px;
+  font-size: 12px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: 900px;
+}
+.container-box-btn button:hover {
+  background-color: blue;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.page-numbers {
+  display: flex;
+  margin-top: 20px;
+}
+.pagination {
+  justify-content: center;
+  width: 100%;
+}
+.page-link {
+  color: black;
+  outline: none !important;
+}
+.page-link:hover {
+  background-color: lightblue;
+  color: white !important;
+  transition: 0.3s;
+  scale: 1.1;
+}
+/* site-stats */
+
+.stats-box {
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 800px;
+}
+.col-6 {
+  max-width: 1000px;
+}
+.col-md-6 {
+  width: 1000px;
+  margin: auto;
+}
+.container h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.container h1::before {
+  content: "";
+  background: linear-gradient(to right, lightblue, rgb(142, 218, 142));
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  z-index: -100;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 80px;
+  margin-top: -10px;
+}
+.container h4 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.container h4::before {
+  content: "";
+  background: linear-gradient(to right, lightblue, rgb(142, 218, 142));
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  z-index: -100;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 80px;
+  margin-top: -10px;
+}
+.footer {
+  background: linear-gradient(to right, lightblue, rgb(142, 218, 142));
+  margin: 30px 0px 0px;
+  padding: 10px;
+}
+.social-buttons img {
+  max-width: 100px;
+  margin: 50px;
+  border-radius: 10px;
+}
+.orall {
+  width: 60px;
+  border-radius: 10px;
+}
